@@ -125,8 +125,44 @@ We’ll explore different ways of tracking issues and finish up by discussing th
   9.	Managing Collaboration
   10.	Tracking Issues
   11.	Continuous Integration (CI)
-  12.	Additional Tools
-  13.	Module 4 Wrap Up: Collaboration
-  14.	Sneak Peek of the Next Course
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+## Module 1 – Introduction to Version Control
+In module 1 you'll be introduced to the concept of version control, which will make managing and rolling back your code look super easy. You’ll learn how to differentiate between files and the tools at your disposal to make this happen. 
 
-Summary: Qwiklabs Assessment: Pushing Local Commits to Github 
+Next, you'll be introduced to Git and how you can leverage that platform to improve your coding abilities.  Once you’ve got a grasp on what Git is, you’ll install it and start using it to create and clone code repositories. 
+
+Last up, you’ll deep dive into Git in order to get more familiar with the different tools and commands it has to offer.
+
+### Learning Objectives
+  •	Describe the concept of version control and why it is important to use
+  •	Utilize the diff and patch commands to automate differentiating and editing files
+  •	Explain what Git is and its benefits of use
+  •	Install Git on local machine
+  •	Utilize Git to create and clone repositories, add code, check the status of code, and commit code
+
+#### Module 1-01. Course Introduction & Welcome
+You've heard us talk a lot about programming and automation. This course focuses on a slightly different aspect. How to keep track of the different versions of your code and configuration files using version control systems or VCS. 
+
+These are tools that everyone in IT can benefit from, even if it's not just for programming or automation itself. It will allow us to easily roll back when mistakes happen and also help us collaborate with others. 
+
+You might have already heard of version control systems in the context of managing configuration files or maintaining the source code of programs and scripts. 
+
+In this course, we'll introduce you to a popular VCS called Git, and show you some of the ways you can use it. We'll also go through how to set up an account with the service called GitHub, so that you can create your very own remote repositories to store your code and configuration. 
+
+By the end of this course, you'll be able to store your codes history in Git, and collaborate with others in GitHub, where you'll also start creating your own portfolio. 
+
+Nowadays, lots of employers were asked to see your GitHub portfolio when you're interviewing for IT roles. GitHub portfolios give companies an idea of what projects you've worked on and what kind of code you can write. This course will help you get one setup.
+
+To ensure our project is a success, my team creates a narrative, figures out all the stake holders, and makes sure everyone is on the same page. After all of that comes the hardest part, executing the project to completion. To do that, it's essential we have a version control system, where each developer can store and share the code they create. This lets us track different revisions, rollback problematic changes, and work together effectively. 
+
+Throughout this course, you'll learn about Git's core functionality, so you can understand how and why it's used in organizations. We'll look at both basic and more advanced features, like branching and merging. We'll demonstrate how having a working knowledge of a VCS like Git can be a lifesaver in emergency situations or when debugging, and we'll explore how to use a VCS to work with others through remote repositories, like the ones provided by GitHub. To do all this, and so you can follow along with the exercises in these modules, you'll need to install Git on your computer. This will also let you interact with GitHub, and upload your code there. 
+
+For the examples in this course, we'll show a bunch of different Python scripts. While you don't need to know any Python to use Git, we do recommend that you have a basic knowledge of the language, so that you can understand the examples and the functionality we'll be demonstrating. If you've done the courses on Python in this program, you're covered. If you haven't, that's okay. But you might need to freshen up your Python skills to follow some of our examples. Also, since all the scripts will use Python 3, you'll need to have Python 3 installed in your computer to run them. 
+
+For our examples, we're going to use a Linux computer, interacting with the Linux command line through the most common command line tools. Again, if you joined us for the Python courses, you're already familiar with all these concepts. If you're jumping into this program with this course, you might benefit from reviewing some of the most basic Linux commands. 
+
+Please remember, some of these topics and modules are a little complex, so they might not 100 percent sink in the first time around. That's totally natural. Take your time, and review any content that's not completely clear. You'll get the hang of it eventually. Also, don't forget that you can use the discussion forums to connect with your fellow learners and ask questions anytime you need. All right. Ready to get started learning about Git and version control. Let's get to it.
+
+### Module 1-02. Version Control/Keeping Historical Copies
+
+
